@@ -1,9 +1,9 @@
 {
   "name": "AFK Bot",
   "bot-account": {
-    "username": "Slobot00",
+    "username": "AFK 24/7".
     "password": "",
-    "type": "offline"
+    "type": "online"
   },
   "server": {
     "ip": "GODSMP-za09.aternos.me",
@@ -31,9 +31,7 @@
       "repeat": true,
       "repeat-delay": 120,
       "messages": [
-        "I'm a regular player",
-        "Subscribe to Slobos!",
-        "I like to play Minecraft!"
+        
       ]
     },
     "chat-log": true,
@@ -77,11 +75,11 @@
     "webhookUrl": "YOUR_DISCORD_WEBHOOK_URL_HERE",
     "events": {
       "connect": true,
-      "disconnect": true,
+      "disconnect": false
       "chat": false
     }
   },
   "chat": {
-    "respond": true
+    "respond": false
   }
 }
